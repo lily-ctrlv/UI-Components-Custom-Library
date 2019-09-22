@@ -1,0 +1,29 @@
+.card {
+  height: 250px;
+  color:white;
+  background: linear-gradient(70deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 50%),
+  							/* url('https://unsplash.it/300/250?image=0'); */
+                url('https://source.unsplash.com/300x250/?dogs,cats');
+
+background-size: cover;
+position: relative;
+}
+
+.card-category {
+position: absolute;
+top: 10px;
+left: 10px;
+
+}
+
+.card-description {
+position: absolute;
+bottom: 10px;
+left: 10px;
+}
+
+.card-image {
+position: absolute;
+top: 10px;
+right: 10px;
+}
